@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Smartphone Brand</string>
+    <string name="anak_sehat">kita adalah anak anak langit yang mencari kitab suci</string>
+    <string name="apple_description">Apple adalah produsen teknologi global yang terkenal dengan iPhone.</string>
+    <string name="asus_description">Asus adalah perusahaan teknologi yang terkenal dengan laptop dan smartphone.</string>
+    <string name="default_description">Ini adalah deskripsi default.</string>
+</resources>
