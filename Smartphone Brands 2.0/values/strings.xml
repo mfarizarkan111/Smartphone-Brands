@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">Smartphone Brand</string>
-    <string name="anak_sehat">kita adalah anak anak langit yang mencari kitab suci</string>
-    <string name="apple_description">Apple adalah produsen teknologi global yang terkenal dengan iPhone.</string>
-    <string name="asus_description">Asus adalah perusahaan teknologi yang terkenal dengan laptop dan smartphone.</string>
-    <string name="default_description">Ini adalah deskripsi default.</string>
+    <string name="brand_title">BRAND NAME</string>
+    <string name="apple_description">Apple is known for its innovative technology.</string>
+    <string name="asus_description">Asus offers a range of laptops and smartphones.</string>
+    <string name="lg_description">LG is a leading manufacturer of electronics.</string>
+    <string name="nokia_description">Nokia is famous for its durable phones.</string>
+    <string name="oneplus_description">OnePlus provides flagship-level smartphones.</string>
+    <string name="poco_description">Poco is known for its affordable yet powerful phones.</string>
+    <string name="realme_description">Realme offers budget-friendly smartphones with great features.</string>
+    <string name="samsung_description">Samsung is a global leader in smartphone technology.</string>
+    <string name="vivo_description">Vivo focuses on camera technology in smartphones.</string>
+    <string name="xiaomi_description">Xiaomi offers high-quality smartphones at competitive prices.</string>
+    <string name="default_description">Description not available.</string>
 </resources>

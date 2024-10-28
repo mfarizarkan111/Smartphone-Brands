@@ -2,43 +2,40 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="100dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginTop="10dp">
-
-
+    android:layout_margin="10dp"
+    android:background="@drawable/rounded_corner"
+    android:elevation="20dp">
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:layout_width="160dp"
-        android:layout_height="80dp"
         android:id="@+id/brand_image"
-        android:scaleType="centerCrop"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/samsung"
-        app:shapeAppearanceOverlay="@style/RoundCorner"
+        android:scaleType="centerCrop"
+        android:src="@drawable/poco"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10dp"
+        app:shapeAppearanceOverlay="@style/RoundCorner"
         tools:ignore="MissingConstraints" />
+
     <TextView
-        android:textStyle="bold"
+        android:id="@+id/tvHeading"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/tvHeading"
+        android:layout_marginLeft="30dp"
+        android:text="@string/brand_title"
         android:textColor="@color/black"
-        android:text="@string/anak_sehat"
-        android:textSize="16sp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="8dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/brand_image"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_margin="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/brand_image"
-        android:background="@color/biru"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

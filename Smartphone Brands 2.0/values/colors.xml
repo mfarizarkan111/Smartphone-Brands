@@ -4,5 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="biru">#FF0000FF</color>
     <color name="green">#4CAF50</color>
+    <color name="fern_green">#618B4A</color>
+    <color name="dark_moss_green">#40531B</color>
+    <color name="mint_green">#D7F9F1</color>
+    <color name="gray">#808080</color>
+
 
 </resources>

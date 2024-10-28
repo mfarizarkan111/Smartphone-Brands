@@ -36,9 +36,18 @@ class MyAdapter(private val brandList: ArrayList<Detailbrand>) : RecyclerView.Ad
             val descriptionResId = when (currentItem.heading) {
                 "Apple" -> R.string.apple_description
                 "Asus" -> R.string.asus_description
-                // Tambahkan item sesuai dengan merek yang ada
+                "LG" -> R.string.lg_description
+                "Nokia" -> R.string.nokia_description
+                "Oneplus" -> R.string.oneplus_description
+                "Poco" -> R.string.poco_description
+                "Realme" -> R.string.realme_description
+                "Samsung" -> R.string.samsung_description
+                "Vivo" -> R.string.vivo_description
+                "Xiaomi" -> R.string.xiaomi_description
                 else -> R.string.default_description
             }
+
+            // Kirim deskripsi ke DetailActivity
             intent.putExtra("brandDescription", context.getString(descriptionResId))
             context.startActivity(intent)
         }

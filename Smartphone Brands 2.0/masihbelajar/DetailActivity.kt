@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.widget.ImageView
 import android.widget.TextView
 
+@Suppress("DEPRECATION")
 class DetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,5 +26,20 @@ class DetailActivity : AppCompatActivity() {
         imageView.setImageResource(brandImage)
         headingTextView.text = brandHeading
         descriptionTextView.text = brandDescription
+
+        // Set toolbar as ActionBar
+        val toolbar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        // Enable back button
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        // Set title if needed
+        supportActionBar?.title = "Detail Brand"
+    }
+    // Handle back button click
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed() // Goes back to previous activity
+        return true
     }
 }
