@@ -1,17 +1,125 @@
 <resources>
     <string name="app_name">Smartphone Brand</string>
     <string name="brand_title">BRAND NAME</string>
-    <string name="apple_description">Apple is known for its innovative technology.</string>
-    <string name="asus_description">Asus offers a range of laptops and smartphones.</string>
-    <string name="lg_description">LG is a leading manufacturer of electronics.</string>
-    <string name="nokia_description">Nokia is famous for its durable phones.</string>
-    <string name="oneplus_description">OnePlus provides flagship-level smartphones.</string>
-    <string name="poco_description">Poco is known for its affordable yet powerful phones.</string>
-    <string name="realme_description">Realme offers budget-friendly smartphones with great features.</string>
-    <string name="samsung_description">Samsung is a global leader in smartphone technology.</string>
-    <string name="vivo_description">Vivo focuses on camera technology in smartphones.</string>
-    <string name="xiaomi_description">Xiaomi offers high-quality smartphones at competitive prices.</string>
-    <string name="default_description">Description not available.</string>
-    <string name="developer_name">ARKAN</string>
-    <string name="year_created">2023</string>
+<!--    <string name="apple_description">Apple is known for its innovative technology.</string>-->
+<!--    <string name="apple_developerName">Steve Jobs, Steve Wozniak, Ronald Wayne</string>-->
+<!--    <string name="apple_yearCreated">1976</string>-->
+<!--    <string name="apple_firstSmartphone">Iphone (2007)</string>-->
+
+<!--    <string name="asus_description">Asus offers a range of laptops and smartphones.</string>-->
+<!--    <string name="asus_developerName">T.H. Tung, Ted Hsu, Wayne Hsieh, M.T. Liao</string>-->
+<!--    <string name="asus_yearCreated">1989</string>-->
+<!--    <string name="asus_firstSmartphone">Asus P505 (2004)</string>-->
+
+<!--    <string name="lg_description">LG is a leading manufacturer of electronics.</string>-->
+<!--    <string name="lg_developerName">Koo In-hwoi</string>-->
+<!--    <string name="lg_yearCreated">1958</string>-->
+<!--    <string name="lg_firstSmartphone">LG Prada (2006)</string>-->
+
+<!--    <string name="nokia_description">Nokia is famous for its durable phones.</string>-->
+<!--    <string name="nokia_developerName">Fredrik Idestam, Leo Mechelin, Eduard Polón</string>-->
+<!--    <string name="nokia_yearCreated">1865</string>-->
+<!--    <string name="nokia_firstSmartphone">Nokia 9000 Communicator (1996)</string>-->
+
+<!--    <string name="oneplus_description">OnePlus provides flagship-level smartphones.</string>-->
+<!--    <string name="oneplus_developerName">Pete Lau, Carl Pei</string>-->
+<!--    <string name="oneplus_yearCreated">2013</string>-->
+<!--    <string name="oneplus_firstSmartphone">OnePlus One (2014)</string>-->
+
+<!--    <string name="poco_description">Poco is known for its affordable yet powerful phones.</string>-->
+<!--    <string name="poco_developerName">Child Company of Xiaomi</string>-->
+<!--    <string name="poco_yearCreated">2018</string>-->
+<!--    <string name="poco_firstSmartphone">Poco F1 (2018)</string>-->
+
+<!--    <string name="realme_description">Realme offers budget-friendly smartphones with great features.</string>-->
+<!--    <string name="realme_developerName">Sky Li (sub-brand of Oppo)</string>-->
+<!--    <string name="realme_yearCreated">2018</string>-->
+<!--    <string name="realme_firstSmartphone">Realme 1 (2018)</string>-->
+
+<!--    <string name="samsung_description">Samsung is a global leader in smartphone technology.</string>-->
+<!--    <string name="samsung_developerName">Lee Byung-chul</string>-->
+<!--    <string name="samsung_yearCreated">1938</string>-->
+<!--    <string name="samsung_firstSmartphone">Samsung SPH-1300 (2001)</string>-->
+
+<!--    <string name="vivo_description">Vivo focuses on camera technology in smartphones.</string>-->
+<!--    <string name="vivo_developerName">Child Company of BBK Electronics</string>-->
+<!--    <string name="vivo_yearCreated">2009</string>-->
+<!--    <string name="vivo_firstSmartphone">Vivo X1 (2012)</string>-->
+
+<!--    <string name="xiaomi_description">Xiaomi offers high-quality smartphones at competitive prices.</string>-->
+<!--    <string name="xiaomi_developerName">lei jun</string>-->
+<!--    <string name="xiaomi_yearCreated">2010</string>-->
+<!--    <string name="xiaomi_firstSmartphone">Xiaomi Mi 1 (2011)</string>-->
+
+<!--    <string name="default_description">Description not available.</string>-->
+<!--    <string name="default_developerName">Description not available.</string>-->
+<!--    <string name="default_yearCreated">Description not available.</string>-->
+<!--    <string name="default_firstSmartphone">Description not available.</string>-->
+
+<string-array name="brand_name">
+    <item>APPLE</item>
+    <item>ASUS</item>
+    <item>LG</item>
+    <item>NOKIA</item>
+    <item>ONEPLUS</item>
+    <item>POCO</item>
+    <item>REALME</item>
+    <item>SAMSUNG</item>
+    <item>VIVO</item>
+    <item>XIAOMI</item>
+</string-array>
+
+    <string-array name="brand_descriptions">
+        <item>Apple is known for its innovative technology.</item>
+        <item>Asus offers a range of laptops and smartphones.</item>
+        <item>LG is a leading manufacturer of electronics.</item>
+        <item>Nokia is famous for its durable phones.</item>
+        <item>OnePlus provides flagship-level smartphones.</item>
+        <item>Poco is known for its affordable yet powerful phones.</item>
+        <item>Realme offers budget-friendly smartphones with great features.</item>
+        <item>Samsung is a global leader in smartphone technology.</item>
+        <item>Vivo focuses on camera technology in smartphones.</item>
+        <item>Xiaomi offers high-quality smartphones at competitive prices.</item>
+    </string-array>
+
+    <string-array name="brand_developers">
+        <item>Steve Jobs, Steve Wozniak, Ronald Wayne</item>
+        <item>T.H. Tung, Ted Hsu, Wayne Hsieh, M.T. Liao</item>
+        <item>Koo In-hwoi</item>
+        <item>Fredrik Idestam, Leo Mechelin, Eduard Polón</item>
+        <item>Pete Lau, Carl Pei</item>
+        <item>Child Company of Xiaomi</item>
+        <item>Sky Li (sub-brand of Oppo)</item>
+        <item>Lee Byung-chul</item>
+        <item>Child Company of BBK Electronics</item>
+        <item>Lei Jun</item>
+    </string-array>
+
+    <string-array name="brand_released">
+        <item>1976</item>
+        <item>1989</item>
+        <item>1958</item>
+        <item>1865</item>
+        <item>2013</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>1938</item>
+        <item>2009</item>
+        <item>2010</item>
+    </string-array>
+
+    <string-array name="brand_phones">
+        <item>Iphone (2007)</item>
+        <item>Asus P505 (2004)</item>
+        <item>LG Prada (2006)</item>
+        <item>Nokia 9000 Communicator (1996)</item>
+        <item>OnePlus One (2014)</item>
+        <item>Poco F1 (2018)</item>
+        <item>Realme 1 (2018)</item>
+        <item>Samsung SPH-1300 (2001)</item>
+        <item>Vivo X1 (2012)</item>
+        <item>Xiaomi Mi 1 (2011)</item>
+    </string-array>
 </resources>
+
+

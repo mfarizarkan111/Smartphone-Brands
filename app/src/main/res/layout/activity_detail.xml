@@ -107,7 +107,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/founder_name"
+        android:id="@+id/developer_name"
         android:text="ini adalah isi teksnya nanti"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintTop_toTopOf="@+id/year_created"
@@ -132,7 +132,7 @@
         android:id="@+id/first_smartphone"
         android:text="ini adalah isi teksnya nanti"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintTop_toBottomOf="@+id/founder_name"
+        app:layout_constraintTop_toBottomOf="@+id/developer_name"
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toEndOf="@+id/smartphone_Pertama"
         android:layout_width="wrap_content"
@@ -140,3 +140,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->

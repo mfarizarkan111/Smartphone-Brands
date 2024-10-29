@@ -45,18 +45,8 @@ class MainActivity : AppCompatActivity() {
             R.drawable.xiami
         )
 
-        heading = arrayOf(
-            "Apple",
-            "Asus",
-            "LG",
-            "Nokia",
-            "Oneplus",
-            "Poco",
-            "Realme",
-            "Samsung",
-            "Vivo",
-            "Xiaomi"
-        )
+        heading = resources.getStringArray(R.array.brand_name)
+
 
         newRecyclerView = findViewById(R.id.recyclerView)
         newRecyclerView.layoutManager = LinearLayoutManager(this)

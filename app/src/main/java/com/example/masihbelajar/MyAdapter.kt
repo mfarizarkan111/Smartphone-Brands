@@ -1,4 +1,5 @@
 import android.content.Intent
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -25,31 +26,20 @@ class MyAdapter(private val brandList: ArrayList<Detailbrand>) : RecyclerView.Ad
         holder.brandImage.setImageResource(currentItem.brandImage)
         holder.tvHeading.text = currentItem.heading
 
+
+
         // Set klik listener untuk item RecyclerView
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, DetailActivity::class.java)
             intent.putExtra("brandImage", currentItem.brandImage)
             intent.putExtra("brandHeading", currentItem.heading)
-
-            // Ambil deskripsi dari strings.xml berdasarkan heading
-            val descriptionResId = when (currentItem.heading) {
-                "Apple" -> R.string.apple_description
-                "Asus" -> R.string.asus_description
-                "LG" -> R.string.lg_description
-                "Nokia" -> R.string.nokia_description
-                "Oneplus" -> R.string.oneplus_description
-                "Poco" -> R.string.poco_description
-                "Realme" -> R.string.realme_description
-                "Samsung" -> R.string.samsung_description
-                "Vivo" -> R.string.vivo_description
-                "Xiaomi" -> R.string.xiaomi_description
-                else -> R.string.default_description
-            }
-
-            // Kirim deskripsi ke DetailActivity
-            intent.putExtra("brandDescription", context.getString(descriptionResId))
+            intent.putExtra("brandDescription", context.resources.getStringArray(R.array.brand_descriptions)[position])
+            intent.putExtra("yearCreated", context.resources.getStringArray(R.array.brand_released)[position])
+            intent.putExtra("developerName", context.resources.getStringArray(R.array.brand_developers)[position])
+            intent.putExtra("firstSmartphone", context.resources.getStringArray(R.array.brand_phones)[position])
             context.startActivity(intent)
+
         }
     }
 
