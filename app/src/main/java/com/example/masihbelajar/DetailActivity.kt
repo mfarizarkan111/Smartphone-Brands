@@ -29,8 +29,6 @@ class DetailActivity : AppCompatActivity() {
         val yearTextView: TextView = findViewById(R.id.year_created)
         val firstSmartphoneTextView: TextView = findViewById(R.id.first_smartphone)
 
-
-
         // Set toolbar as ActionBar
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -49,6 +47,7 @@ class DetailActivity : AppCompatActivity() {
         yearTextView.text = brandYear
         firstSmartphoneTextView.text = brandFirst
     }
+
     // Handle back button click
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed() // Goes back to previous activity

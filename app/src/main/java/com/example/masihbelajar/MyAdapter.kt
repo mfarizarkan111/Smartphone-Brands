@@ -26,8 +26,6 @@ class MyAdapter(private val brandList: ArrayList<Detailbrand>) : RecyclerView.Ad
         holder.brandImage.setImageResource(currentItem.brandImage)
         holder.tvHeading.text = currentItem.heading
 
-
-
         // Set klik listener untuk item RecyclerView
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
@@ -39,7 +37,6 @@ class MyAdapter(private val brandList: ArrayList<Detailbrand>) : RecyclerView.Ad
             intent.putExtra("developerName", context.resources.getStringArray(R.array.brand_developers)[position])
             intent.putExtra("firstSmartphone", context.resources.getStringArray(R.array.brand_phones)[position])
             context.startActivity(intent)
-
         }
     }
 

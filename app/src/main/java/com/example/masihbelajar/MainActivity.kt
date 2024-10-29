@@ -47,7 +47,6 @@ class MainActivity : AppCompatActivity() {
 
         heading = resources.getStringArray(R.array.brand_name)
 
-
         newRecyclerView = findViewById(R.id.recyclerView)
         newRecyclerView.layoutManager = LinearLayoutManager(this)
         newRecyclerView.setHasFixedSize(true)
