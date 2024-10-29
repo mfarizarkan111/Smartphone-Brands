@@ -36,6 +36,7 @@ class MyAdapter(private val brandList: ArrayList<Detailbrand>) : RecyclerView.Ad
             intent.putExtra("yearCreated", context.resources.getStringArray(R.array.brand_released)[position])
             intent.putExtra("developerName", context.resources.getStringArray(R.array.brand_developers)[position])
             intent.putExtra("firstSmartphone", context.resources.getStringArray(R.array.brand_phones)[position])
+            intent.putExtra("brandWebsite", context.resources.getStringArray(R.array.brand_websites)[position])
             context.startActivity(intent)
         }
     }

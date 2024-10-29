@@ -8,4 +8,7 @@
     <color name="dark_moss_green">#40531B</color>
     <color name="mint_green">#D7F9F1</color>
     <color name="gray">#808080</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
 </resources>

@@ -1,6 +1,9 @@
 package com.example.masihbelajar
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.ImageView
 import android.widget.TextView
@@ -13,6 +16,7 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
+
         // Ambil data dari Intent
         val brandImage = intent.getIntExtra("brandImage", 0)
         val brandHeading = intent.getStringExtra("brandHeading")
@@ -20,6 +24,7 @@ class DetailActivity : AppCompatActivity() {
         val brandDeveloper = intent.getStringExtra("developerName")
         val brandYear = intent.getStringExtra("yearCreated")
         val brandFirst = intent.getStringExtra("firstSmartphone")
+        val brandWebsite = intent.getStringExtra("brandWebsite")// button baru
 
         // Inisialisasi Views
         val imageView: ImageView = findViewById(R.id.detail_image)
@@ -28,6 +33,7 @@ class DetailActivity : AppCompatActivity() {
         val developerTextView: TextView = findViewById(R.id.developer_name)
         val yearTextView: TextView = findViewById(R.id.year_created)
         val firstSmartphoneTextView: TextView = findViewById(R.id.first_smartphone)
+        val websiteButton: Button = findViewById(R.id.websiteButton) // Inisialisasi Button
 
         // Set toolbar as ActionBar
         val toolbar: Toolbar = findViewById(R.id.toolbar)
@@ -46,6 +52,16 @@ class DetailActivity : AppCompatActivity() {
         developerTextView.text = brandDeveloper
         yearTextView.text = brandYear
         firstSmartphoneTextView.text = brandFirst
+
+        // Set OnClickListener untuk Button
+        websiteButton.setOnClickListener {
+            // Cek apakah brandWebsite tidak null
+            brandWebsite?.let {
+                // Membuka URL di browser
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it))
+                startActivity(intent)
+            }
+        }
     }
 
     // Handle back button click
