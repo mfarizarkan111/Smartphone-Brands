@@ -70,16 +70,16 @@
 </string-array>
 
     <string-array name="brand_descriptions">
-        <item>Apple is known for its innovative technology.</item>
-        <item>Asus offers a range of laptops and smartphones.</item>
-        <item>LG is a leading manufacturer of electronics.</item>
-        <item>Nokia is famous for its durable phones.</item>
-        <item>OnePlus provides flagship-level smartphones.</item>
-        <item>Poco is known for its affordable yet powerful phones.</item>
-        <item>Realme offers budget-friendly smartphones with great features.</item>
-        <item>Samsung is a global leader in smartphone technology.</item>
-        <item>Vivo focuses on camera technology in smartphones.</item>
-        <item>Xiaomi offers high-quality smartphones at competitive prices.</item>
+        <item>Apple didirikan pada tahun 1976 dan terkenal dengan inovasi serta produk elektronik premiumnya. iPhone pertamanya, yang diluncurkan pada tahun 2007, merevolusi industri smartphone dengan desainnya yang ramping, antarmuka layar sentuh, dan hadirnya App Store. Apple terus menetapkan tren dalam desain, teknologi, dan pengalaman pengguna, dengan penekanan pada privasi dan integrasi yang mulus di berbagai perangkatnya.</item>
+        <item>Didirikan pada tahun 1989 di Taiwan, Asus awalnya berfokus pada perangkat keras komputer, terutama motherboard. Memasuki pasar smartphone pada tahun 2000-an, Asus mendapatkan pengakuan dengan seri ZenFone-nya yang menawarkan perangkat keras berkualitas tinggi dengan harga terjangkau.</item>
+        <item>LG, yang awalnya dikenal sebagai GoldStar, didirikan pada tahun 1958 di Korea Selatan. LG menjadi salah satu pelopor di dunia elektronik dan telekomunikasi, dan meluncurkan LG Prada sebagai salah satu smartphone layar sentuh pertama pada tahun 2006. Meskipun LG kini telah keluar dari pasar smartphone, produk-produk mereka dikenal akan inovasinya, seperti LG G Flex dengan layar melengkung.</item>
+        <item>Didirikan pada tahun 1865 di Finlandia, Nokia pada awalnya merupakan perusahaan industri kayu dan kertas sebelum berkembang ke telekomunikasi. Pada tahun 1990-an, Nokia menjadi pemimpin pasar ponsel dengan model ikonik seperti Nokia 3310. Nokia 9000 Communicator adalah salah satu smartphone pertama di dunia yang diluncurkan pada tahun 1996. Kini, Nokia berfokus pada ponsel Android dengan daya tahan yang dikenal.</item>
+        <item>Didirikan pada tahun 2013 oleh Pete Lau dan Carl Pei, OnePlus awalnya berkomitmen untuk menyediakan smartphone dengan kualitas flagship dengan harga lebih terjangkau. Melalui produk pertama mereka, OnePlus One, brand ini menarik perhatian dengan konsep "flagship killer." OnePlus kini dikenal dengan inovasi perangkat keras dan software yang intuitif melalui sistem operasinya, OxygenOS.</item>
+        <item>Awalnya merupakan sub-brand dari Xiaomi, Poco berdiri sendiri sebagai brand independen pada tahun 2018. Poco dikenal dengan smartphone yang memiliki spesifikasi tinggi namun harga terjangkau, dimulai dengan Poco F1 yang sangat populer. Brand ini berfokus pada segmen pasar pengguna yang menginginkan performa tinggi dalam anggaran menengah.</item>
+        <item>Realme didirikan pada tahun 2018 sebagai sub-brand dari Oppo oleh Sky Li. Realme cepat mendapatkan popularitas di pasar smartphone kelas menengah, terutama di India dan Asia Tenggara, dengan menawarkan produk yang stylish dan kaya fitur untuk generasi muda. Fokus Realme adalah memberikan nilai lebih dengan harga yang kompetitif.</item>
+        <item>Didirikan pada tahun 1938 di Korea Selatan, Samsung awalnya beroperasi sebagai perusahaan ekspor kecil. Samsung memasuki industri elektronik pada 1960-an dan mulai merilis ponsel pada 1980-an. Samsung SPH-1300, salah satu smartphone awal, diluncurkan pada tahun 2001. Samsung kini memimpin pasar smartphone global dengan seri Galaxy yang populer, dikenal dengan inovasi teknologi dan kualitas layarnya.</item>
+        <item>Vivo didirikan pada tahun 2009 sebagai bagian dari BBK Electronics di Tiongkok. Vivo dikenal dengan inovasi pada kamera dan desain stylish untuk pasar generasi muda, seperti Vivo X1 yang menjadi salah satu smartphone tertipis pada masanya. Vivo terus berkembang dengan teknologi seperti kamera pop-up dan pemindai sidik jari dalam layar.</item>
+        <item>Xiaomi, didirikan pada tahun 2010 di Tiongkok, awalnya berfokus pada software sebelum beralih ke hardware dengan merilis Mi 1 pada tahun 2011. Xiaomi menarik perhatian dengan strategi penjualan flash sale dan harga yang agresif. Saat ini, Xiaomi adalah salah satu produsen smartphone terbesar di dunia dengan produk yang mencakup berbagai segmen pasar, dari entry-level hingga flagship.</item>
     </string-array>
 
     <string-array name="brand_developers">

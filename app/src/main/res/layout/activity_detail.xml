@@ -49,12 +49,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="Sinopsis "
+        android:text="Sejarah"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="10dp"
-        app:layout_constraintTop_toTopOf="@+id/detail_heading"
+        app:layout_goneMarginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/smartphone_Pertama"
         tools:ignore="MissingConstraints" />
     <TextView
         android:text="Ini adalalah deskripsi Brandnya nanti"
@@ -77,9 +78,9 @@
         android:layout_marginTop="28dp"
         android:text="Tahun dibuat : "
         android:textColor="@android:color/black"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/detail_description"
+        app:layout_constraintTop_toTopOf="@+id/detail_heading"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -87,8 +88,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ini adalah isi teksnya nanti"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintTop_toTopOf="@+id/detail_description"
+        app:layout_constraintTop_toTopOf="@+id/detail_heading"
         app:layout_constraintBottom_toBottomOf="@+id/nama_pembuat"
         app:layout_constraintStart_toEndOf="@+id/tahun_Dibuat"
         tools:ignore="MissingConstraints" />
@@ -101,7 +104,7 @@
         android:layout_marginTop="28dp"
         android:text="Nama Penemu : "
         android:textColor="@android:color/black"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tahun_Dibuat"
         tools:ignore="MissingConstraints" />
@@ -109,6 +112,8 @@
     <TextView
         android:id="@+id/developer_name"
         android:text="ini adalah isi teksnya nanti"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintTop_toTopOf="@+id/year_created"
         app:layout_constraintBottom_toBottomOf="@+id/smartphone_Pertama"
@@ -121,7 +126,7 @@
         android:text="Smartphone pertama : "
         app:layout_constraintTop_toTopOf="@+id/nama_pembuat"
         android:layout_width="wrap_content"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -131,7 +136,9 @@
     <TextView
         android:id="@+id/first_smartphone"
         android:text="ini adalah isi teksnya nanti"
+        android:textColor="@android:color/black"
         app:layout_constraintHorizontal_bias="1.0"
+        android:textSize="14sp"
         app:layout_constraintTop_toBottomOf="@+id/developer_name"
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toEndOf="@+id/smartphone_Pertama"
