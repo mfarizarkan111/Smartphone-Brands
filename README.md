@@ -34,9 +34,15 @@ Xiaomi: https://www.mi.com
 
 https://www.wikipedia.org/
 
+Prototipe Aplikasi :
+
 ![image](https://github.com/user-attachments/assets/43523f05-1ea2-412e-9ac6-573a24f83ddc)
 
+Main Activity :
+
 ![WhatsApp Image 2024-10-29 at 20 13 24_d8f73204](https://github.com/user-attachments/assets/03a33542-baa8-4e88-ad0e-36a898045772)
+
+Detail Activity : 
 
 ![WhatsApp Image 2024-10-29 at 20 13 25_d5141807](https://github.com/user-attachments/assets/eb1298e2-52fd-45e3-9b2b-c384aebeaff6)
 
