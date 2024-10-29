@@ -12,4 +12,6 @@
     <string name="vivo_description">Vivo focuses on camera technology in smartphones.</string>
     <string name="xiaomi_description">Xiaomi offers high-quality smartphones at competitive prices.</string>
     <string name="default_description">Description not available.</string>
+    <string name="developer_name">ARKAN</string>
+    <string name="year_created">2023</string>
 </resources>
